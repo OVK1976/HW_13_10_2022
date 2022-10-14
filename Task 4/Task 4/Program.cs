@@ -10,7 +10,7 @@ Console.Write("Введите число 2: ");
 string b = Console.ReadLine();
 Console.Write("Введите число 3: ");
 string c = Console.ReadLine();
-Console.WriteLine($"Результаты выбора максимального из чисел: {a} {b} {c} ");
+Console.WriteLine($"Результаты выбора максимального из чисел: {a} {b} {c}");
 int a1 = int.Parse(a);
 int b1 = int.Parse(b);
 int c1 = int.Parse(c);
