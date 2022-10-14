@@ -3,8 +3,7 @@
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 Console.Write("Введите число: ");
-string N=Console.ReadLine();
-int N1=int.Parse(N);
-Console.WriteLine($"Все четные числа от 1 до {N1} :");
-for (int indx = 1; indx < N1; indx++)
+int N=int.Parse(Console.ReadLine());
+Console.WriteLine($"Все четные числа от 1 до {N} :");
+for (int indx = 1; indx < N; indx++)
     if (indx % 2 == 0) Console.Write($" {indx} ");
